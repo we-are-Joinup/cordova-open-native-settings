@@ -90,6 +90,8 @@ public class NativeSettings extends CordovaPlugin {
             intent = new Intent(android.provider.Settings.ACTION_MANAGE_ALL_APPLICATIONS_SETTINGS);
         } else if (action.equals("manage_applications")) {
             intent = new Intent(android.provider.Settings.ACTION_MANAGE_APPLICATIONS_SETTINGS);
+        } else if (action.equals("manage_overlay")) {
+            intent = new Intent(android.provider.Settings.ACTION_MANAGE_OVERLAY_PERMISSION);
         } else if (action.equals("memory_card")) {
             intent = new Intent(android.provider.Settings.ACTION_MEMORY_CARD_SETTINGS);
         } else if (action.equals("network")) {
