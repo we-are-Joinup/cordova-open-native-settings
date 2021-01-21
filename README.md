@@ -61,6 +61,7 @@ Setting constant | Description
 "application_development" | Show settings to allow configuration of application development-related settings
 "application" | Show settings to allow configuration of application-related settings
 "battery_optimization" | Show screen for controlling which apps can ignore battery optimizations
+"biometric" | Show screen for configuring biometric based device security
 "bluetooth" | Show settings to allow configuration of Bluetooth
 "captioning" | Show settings for video captioning
 "cast" | Show settings to allow configuration of cast endpoints
