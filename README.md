@@ -125,6 +125,7 @@ Setting constant | Description
 "locale" | Settings > General > Language & Region
 "location" | Settings > Location Services (in older versions of iOS)
 "locations" | Settings > Privacy > Location Services (in newer versions of iOS)
+"tracking" | Settings > Privacy > Tracking (iOS 14+)
 "mobile_data" | Settings > Mobile Data (after iOS 10)
 "music" | Settings > iTunes
 "music_equalizer" | Settings > Music > EQ
