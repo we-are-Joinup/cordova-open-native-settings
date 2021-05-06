@@ -88,6 +88,9 @@
     else if ([key isEqualToString:@"locations"]) {
         result = [self do_open:[prefix stringByAppendingString:@"Privacy&path=LOCATION"]];
     }
+    else if ([key isEqualToString:@"tracking"]) {
+        result = [self do_open:[prefix stringByAppendingString:@"Privacy&path=USER_TRACKING"]];
+    }
     else if ([key isEqualToString:@"network"]) {
         result = [self do_open:[prefix stringByAppendingString:@"General&path=Network"]];
     }
